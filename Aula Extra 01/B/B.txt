@@ -1,0 +1,11 @@
+Entrada:
+	Dois inteiros N e K na primeira linha (1 <= K <= N <= 10^5).
+	Um vetor V de N inteiros na segunda linha (-10^9 <= v[i] <= 10^9).
+Saída:
+	Imprima N - K + 1 números reais na mesma linha representando as médias de cada um dos N - K + 1 segmentos contínuos de tamanho K do vetor V.
+Exemplo:
+	Entrada:
+		5 2
+		3 1 7 3 5
+	Saída:
+		2.0 4.0 5.0 4.0
